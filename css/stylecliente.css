@@ -1,0 +1,130 @@
+* {
+	font-family: sans-serif; 
+}
+  body{
+    margin: 0;
+    padding: 0;
+  
+    
+}
+.container{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+  
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+
+    
+}
+.boton-c{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+  
+	margin: 0;
+	width: 74%;
+	height: 50%;
+}
+.titulo{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+  
+	margin: 0;
+	width: 83%;
+	height:100%;
+}
+  .content-table {
+	border-collapse: collapse;
+	margin: 25px 0;
+	font-size: 0.9em;
+	margin-left: 100px;
+	border-radius: 2px 2px 0 0;
+	overflow: hidden;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  .content-table thead tr {
+	background-color: #3282b8;
+	color: #ffffff;
+	text-align: left;
+	font-weight: bold;
+  }
+  
+  .content-table th,
+  .content-table td {
+	padding: 12px 15px;
+  }
+  ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #3282b8;
+  }
+  
+  li {
+	float: left;
+  }
+  
+  li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+  }
+  li a:hover {
+	background-color: #4b4d4c;
+  }
+
+  .btnCliente{
+    float: right;
+  }
+  .btnCliente{
+    font: normal;
+    font-size: 20px;
+    border: 1px solid rgb(206, 203, 203);
+    margin: 5% 0;
+  }
+  .btneliminar{
+	border: 0;
+	font: inherit;
+	background-color: #ce2e2e;
+	color: #fff;
+	padding: 10px 20px;
+	border-radius: 15px;
+	margin: 5px 5px;
+  }
+  .btneliminar:hover{
+	background-color: #d36f6f;
+  }
+
+  .btneditar{
+	border: 0;
+	font: inherit;
+	background-color: #54a851;
+	color: #fff;
+	padding: 10px 20px;
+	border-radius: 15px;
+	margin: 5px 5px;
+  }
+  .btneditar:hover{
+	background-color: #04652d;
+  }
+
+  .btnaniadir{
+	border: 0;
+	font: inherit;
+	background-color: #436ec9;
+	color: #fff;
+	padding: 10px 20px;
+	border-radius: 15px;
+	margin: 5px 5px;
+  }
+  .btnaniadir:hover{
+	background-color: #4f74ac;
+  }
